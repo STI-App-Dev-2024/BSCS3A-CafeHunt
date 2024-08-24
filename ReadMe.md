@@ -7,4 +7,4 @@
 - Race Jhone Minard Escaret
 
 ## Design
-- [Figma Design](https://www.figma.com/design/stAMsrBSpbCIxpfNXdNc5r/CafeHunt?node-id=0-1&t=zLNGOtdWPWaZ8qmb-0)
+- [Figma Design](https://www.figma.com/design/RDerpNxrBGCG0UexQLLhrv/CafeHunt?t=oHqBkYxcl8kFCUCc-0)
