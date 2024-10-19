@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmlag\\Source\\Repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmlag\\Source\\Repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj": {
+    "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmlag\\Source\\Repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj",
         "projectName": "CafeHunt",
-        "projectPath": "C:\\Users\\gmlag\\Source\\Repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj",
-        "packagesPath": "C:\\Users\\gmlag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmlag\\Source\\Repos\\BSCS3A-CafeHunt\\CafeHunt\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\CafeHunt.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gmlag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

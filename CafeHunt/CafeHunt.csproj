@@ -57,9 +57,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Montserrat-Regular.ttf" />
+	  <None Remove="Resources\Images\check_icon.png" />
+	  <None Remove="Resources\Images\email_icon.png" />
+	  <None Remove="Resources\Images\logo_white.png" />
+	  <None Remove="Resources\Images\password_icon.png" />
+	  <None Remove="Resources\Images\send_icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\NewFolder\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="ForgotPassword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

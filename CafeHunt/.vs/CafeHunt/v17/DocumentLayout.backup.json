@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|c:\\users\\admin\\source\\repos\\bscs3a-cafehunt\\cafehunt\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|c:\\users\\admin\\source\\repos\\bscs3a-cafehunt\\cafehunt\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|c:\\users\\admin\\source\\repos\\bscs3a-cafehunt\\cafehunt\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C23CE6E-1ABF-4894-8B0A-C65F0A379343}|CafeHunt.csproj|solutionrelative:forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwFUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T03:23:52.151Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:43:21.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\ForgotPassword.xaml",
+              "RelativeDocumentMoniker": "ForgotPassword.xaml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\BSCS3A-CafeHunt\\CafeHunt\\ForgotPassword.xaml",
+              "RelativeToolTip": "ForgotPassword.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T10:36:16.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
