@@ -64,6 +64,7 @@
 	  <None Remove="Resources\Images\logo_white.png" />
 	  <None Remove="Resources\Images\password_icon.png" />
 	  <None Remove="Resources\Images\send_icon.png" />
+	  <None Remove="Resources\Images\user_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -78,6 +79,15 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="ForgotPassword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Home.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="OnBoarding.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="SignUp.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

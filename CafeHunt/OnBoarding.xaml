@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CafeHunt.OnBoarding"
+             Title="OnBoarding"
+             Shell.NavBarIsVisible="False"
+             Background="#FC9375">
+
+    <Grid>
+        <StackLayout Margin="40">
+            <Image
+                x:Name="LOGO"
+                Source = "logo_white.png"
+                VerticalOptions="Center"
+                HeightRequest="150"
+                WidthRequest="130"/>
+        </StackLayout>
+
+        <StackLayout Margin="24,228">
+            <Label
+                Text="Onboarding"
+                FontFamily="MontserratBold"
+                FontSize="48"/>
+            <Label
+                Text="What are you signing up for?"
+                FontSize="18"/>
+
+            <StackLayout Margin="0,50" Spacing="40">
+
+
+                <Button
+                    x:Name="BTNPersonal"
+                    Text="Personal Account"
+                    TextColor="#FFEDDF"
+                    BackgroundColor="#292933"
+                    WidthRequest="342"
+                    HeightRequest="48"
+                    Clicked="BTNPersonal_Clicked"/>
+
+                <Button
+                    x:Name="BTNBusiness"
+                    Text="Business Account"
+                    TextColor="#FFEDDF"
+                    BackgroundColor="#292933"
+                    WidthRequest="342"
+                    HeightRequest="48"
+                    Clicked="BTNBusiness_Clicked"/>
+
+            </StackLayout>
+
+        </StackLayout>
+    </Grid>
+</ContentPage>

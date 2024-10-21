@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeHunt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8203e6603f41e9e68c6e12732d0b3733ade2e8ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+027756c1d8a4a169fcf702193979503d75d84fb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeHunt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeHunt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

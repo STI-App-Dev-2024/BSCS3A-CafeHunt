@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CafeHunt.SignUp"
+             Title="SignUp"             
+             Shell.NavBarIsVisible="False"
+             Background="#FC9375">
+    
+    <Grid>
+        <StackLayout Margin="40">
+            <Image
+                x:Name="LOGO"
+                Source = "logo_white.png"
+                VerticalOptions="Center"
+                HeightRequest="150"
+                WidthRequest="130"/>
+        </StackLayout>
+
+        <StackLayout Margin= "24,180" >
+            <Label
+                Text="SignUp"
+                FontSize="48"
+                FontFamily="MontserratBold"/>
+            <Label
+                Margin="0,16"
+                Text="Please sign in to continue"
+                FontSize="18"
+                />
+
+            <Grid>
+                <Frame 
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                    <Grid>
+                        <Image
+                            HorizontalOptions="Start"
+                            Margin="4,0,0,0"
+                            Source="user_icon.png"
+                            HeightRequest="32"
+                            WidthRequest="32"/>
+                        <Entry 
+                            x:Name="InputFname"
+                            BackgroundColor="Transparent"
+                            Margin="38,0,0,0"
+                            HeightRequest="48"
+                            Placeholder="First Name"
+                            TextColor="#2B252E"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <Grid>
+                <Frame 
+                    Margin="0,20,0,0"
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                    <Grid>
+                        <Image
+                            HorizontalOptions="Start"
+                            Margin="4,0,0,0"
+                            Source="user_icon.png"
+                            HeightRequest="32"
+                            WidthRequest="32"/>
+                        <Entry 
+                            x:Name="InputLname"
+                            BackgroundColor="Transparent"
+                            Margin="38,0,0,0"
+                            HeightRequest="48"
+                            Placeholder="Last Name"
+                            TextColor="#2B252E"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <Grid>
+                <Frame 
+                    Margin="0,20,0,0"
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                    <Grid>
+                        <Image
+                            HorizontalOptions="Start"
+                            Margin="4,0,0,0"
+                            Source="email_icon.png"
+                            HeightRequest="32"
+                            WidthRequest="32"/>
+                        <Entry 
+                            x:Name="InputEmail"
+                            BackgroundColor="Transparent"
+                            Margin="38,0,0,0"
+                            HeightRequest="48"
+                            Placeholder="Email"
+                            TextColor="#2B252E"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <Grid>
+                <Frame 
+                    Margin="0,20,0,0"
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                    <Grid>
+                        <Image
+                            HorizontalOptions="Start"
+                            Margin="4,0,0,0"
+                            Source="password_icon.png"
+                            HeightRequest="32"
+                            WidthRequest="32"/>
+                        <Entry 
+                            x:Name="InputPassword"
+                            BackgroundColor="Transparent"
+                            Margin="38,0,0,0"
+                            HeightRequest="48"
+                            Placeholder="Password"
+                            TextColor="#2B252E"
+                            IsPassword="True"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <Grid>
+                <Frame 
+                    Margin="0,20,0,0"
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                    <Grid>
+                        <Image
+                            HorizontalOptions="Start"
+                            Margin="4,0,0,0"
+                            Source="password_icon.png"
+                            HeightRequest="32"
+                            WidthRequest="32"/>
+                        <Entry 
+                            x:Name="InputConfirmPassword"
+                            BackgroundColor="Transparent"
+                            Margin="38,0,0,0"
+                            HeightRequest="48"
+                            Placeholder="Confirm Passwword"
+                            TextColor="#2B252E"
+                            IsPassword="True"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <Button
+                x:Name="BtnLogin"
+                Text="Register"
+                Margin="0,48"
+                TextColor="#FFEDDF"
+                BackgroundColor="#292933"
+                WidthRequest="342"
+                HeightRequest="48"/>
+        </StackLayout>
+        
+        <StackLayout Margin="0,0,0,20" Orientation="Horizontal" HorizontalOptions="Center">
+            <Label
+                Text="Already have an account? "
+                TextColor="#292933"
+                VerticalOptions="End"/>
+            <Button
+                x:Name="BTNLogin"
+                Text="Login"
+                BackgroundColor="Transparent"
+                TextColor="#FEF3EF"
+                VerticalOptions="End"
+                HeightRequest="19"
+                Padding="0"
+                Clicked="Login_Clicked"/>
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

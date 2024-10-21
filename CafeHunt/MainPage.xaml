@@ -5,121 +5,122 @@
              Shell.NavBarIsVisible="False"
              Background="#FC9375">
 
-    <Grid>
-        <StackLayout Margin="40">
-            <Image
-            x:Name="LOGO"
-            Source = "logo_white.png"
-            VerticalOptions="Center"
-            HeightRequest="150"
-            WidthRequest="130"
-            />
- 
-        </StackLayout>
+    <ScrollView>
 
-        <StackLayout Margin="24,280" >
-            <Label
-                Text="Login"
-                FontSize="48"
-                FontFamily="MontserratBold"
-                TextColor="#2B252E"/>
-            <Label
-                Margin="0,20,0,0"
-                Text="Please sign in to continue"
-                FontSize="18"
-                TextColor="#2B252E"/>
-
-            <Grid Margin="0,20,0,0">
-                <Frame 
-                    Padding="0,0,8,0"
-                    BackgroundColor="White"
-                    BorderColor="Transparent">
-                    <Grid>
-                        <Image
-                            HorizontalOptions="Start"
-                            Margin="4,0,0,0"
-                            Source="email_icon.png"
-                            HeightRequest="32"
-                            WidthRequest="32"/>
-                        <Entry 
-                            x:Name="InputEmail"
-                            BackgroundColor="Transparent"
-                            Margin="38,0,0,0"
-                            HeightRequest="48"
-                            Placeholder="Enter Email"
-                            TextColor="#2B252E"/>
-                    </Grid>
-                </Frame>
-            </Grid>
-
-            <Grid Margin="0,20,0,0">
-                <Frame 
-                    Padding="0,0,8,0"
-                    BackgroundColor="White"
-                    BorderColor="Transparent">
-                    <Grid>
-                        <Image
-                            Source="password_icon.png"
-                            HorizontalOptions="Start"
-                            Margin="4,0,0,0"
-                            HeightRequest="32"
-                            WidthRequest="32"/>
-                        <Entry 
-                            x:Name="InputPassword"
-                            BackgroundColor="Transparent"
-                            Margin="38,0,0,0"
-                            HeightRequest="48"
-                            Placeholder="Enter Password"
-                            TextColor="#2B252E"/>
-                    </Grid>
-                </Frame>
-            </Grid>
-
-            <Button
-                x:Name="BTNForgotPassword"
-                Margin="0,8,0,8"
-                HorizontalOptions="Start"
-                TextColor="#FEF3FE"
-                BackgroundColor="Transparent"
-                WidthRequest="130"
-                Text="Forgot Password?"
-                HeightRequest="19"
-                Padding="0"
-                Clicked="ForgotPassword_Clicked"/>
+        <Grid>
+            <StackLayout Margin="40">
+                <Image
+                    
+                   x:Name="LOGO"
+                    Source = "logo_white.png"
+                    VerticalOptions="Center"
+                    HeightRequest="150"
+                    WidthRequest="130"/>
                 
+            </StackLayout>
 
-            <Button
-                x:Name="BtnLogin"
-                Text="LOGIN"
-                TextColor="#FFEDDF"
-                BackgroundColor="#292933"
-                WidthRequest="342"
-                HeightRequest="48"
-            />
+            <StackLayout Margin="24,280" >
+                <Label
+                    Text="Login"
+                    FontSize="48"
+                    FontFamily="MontserratBold"
+                    TextColor="#2B252E"/>
+                <Label
+                    Margin="0,20,0,0"
+                    Text="Please sign in to continue"
+                    FontSize="18"
+                    TextColor="#2B252E"/>
 
-        </StackLayout>
+                <Grid Margin="0,20,0,0">
+                    <Frame Padding="0,0,8,0" BackgroundColor="White" BorderColor="Transparent">
+                        <Grid>
+                            <Image
+                                HorizontalOptions="Start"
+                                Margin="4,0,0,0"
+                                Source="email_icon.png"
+                                HeightRequest="32"
+                                WidthRequest="32"/>
+                            <Entry 
+                                x:Name="InputEmail"
+                                BackgroundColor="Transparent"
+                                Margin="38,0,0,0"
+                                HeightRequest="48"
+                                Placeholder="Enter Email"
+                                TextColor="#2B252E"/>
+                        </Grid>
+                    </Frame>
+                </Grid>
 
-        <StackLayout
-            Margin="0,0,0,20"
-            Orientation="Horizontal"
-            HorizontalOptions="Center"
-                >
-            <Label
-                Text="Don't have an account? "
-                TextColor="#292933"
-                VerticalOptions="End"/>
+                <Grid Margin="0,20,0,0">
+                    <Frame 
+                    Padding="0,0,8,0"
+                    BackgroundColor="White"
+                    BorderColor="Transparent">
+                        <Grid>
+                            <Image
+                                Source="password_icon.png"
+                                HorizontalOptions="Start"
+                                Margin="4,0,0,0"
+                                HeightRequest="32"
+                                WidthRequest="32"/>
+                            <Entry 
+                                x:Name="InputPassword"
+                                BackgroundColor="Transparent"
+                                Margin="38,0,0,0"
+                                HeightRequest="48"
+                                Placeholder="Enter Password"
+                                TextColor="#2B252E"
+                                IsPassword="True"
+                                IsTextPredictionEnabled="False"/>
+                        </Grid>
+                    </Frame>
+                </Grid>
 
-            <Button
-                Text="Sign Up"
-                BackgroundColor="Transparent"
-                TextColor="#FEF3EF"
-                VerticalOptions="End"
-                HeightRequest="19"
-                Padding="0"/>
 
-        </StackLayout>
+                <Button
+                    x:Name="BTNForgotPassword"
+                    HorizontalOptions="Start"
+                    Margin="0,8"
+                    TextColor="#FEF3FE"
+                    BackgroundColor="Transparent"
+                    WidthRequest="130"
+                    Text="Forgot Password?"
+                    HeightRequest="19"
+                    Padding="0"
+                    Clicked="ForgotPassword_Clicked"/>
 
-        
+                <Button
+                    x:Name="BTNLogin"
+                    Text="LOGIN"
+                    TextColor="#FFEDDF"
+                    BackgroundColor="#292933"
+                    WidthRequest="342"
+                    HeightRequest="48"
+                    Clicked="BTNLogin_Clicked"
+                    VerticalOptions="End"/>
 
-    </Grid>
+            </StackLayout>
+
+            <StackLayout Margin="0,0,0,20" Orientation="Horizontal" HorizontalOptions="Center">
+                
+                <Label
+                    Text="Don't have an account? "
+                    TextColor="#292933"
+                    VerticalOptions="End"/>
+
+                <Button
+                    x:Name="BTNSignUp"
+                    Text="Sign Up"
+                    BackgroundColor="Transparent"
+                    TextColor="#FEF3EF"
+                    VerticalOptions="End"
+                    HeightRequest="19"
+                    Padding="0"
+                    Clicked="SignUp_Clicked"/>
+                
+            </StackLayout>
+            
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

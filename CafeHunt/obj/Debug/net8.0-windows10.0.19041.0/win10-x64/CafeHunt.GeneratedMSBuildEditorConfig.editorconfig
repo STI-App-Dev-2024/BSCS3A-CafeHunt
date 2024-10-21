@@ -30,11 +30,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.ForgotPassword.xa
 build_metadata.AdditionalFiles.TargetPath = ForgotPassword.xaml
 build_metadata.AdditionalFiles.RelativePath = ForgotPassword.xaml
 
+[C:/Users/admin/source/repos/BSCS3A-CafeHunt/CafeHunt/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Home.xaml
+
 [C:/Users/admin/source/repos/BSCS3A-CafeHunt/CafeHunt/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/admin/source/repos/BSCS3A-CafeHunt/CafeHunt/OnBoarding.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.OnBoarding.xaml
+build_metadata.AdditionalFiles.TargetPath = OnBoarding.xaml
+build_metadata.AdditionalFiles.RelativePath = OnBoarding.xaml
 
 [C:/Users/admin/source/repos/BSCS3A-CafeHunt/CafeHunt/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -47,3 +59,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/admin/source/repos/BSCS3A-CafeHunt/CafeHunt/SignUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CafeHunt.SignUp.xaml
+build_metadata.AdditionalFiles.TargetPath = SignUp.xaml
+build_metadata.AdditionalFiles.RelativePath = SignUp.xaml
